@@ -16,15 +16,10 @@ public class App
 {
     public static void main( String[] args )
     {
-    	
+    	//zapis 
     	save();
     }
     
-    /*
-    public static List<Person> listForAll(){
-    	
-    }
-    */
     
     public static void save(){
     	Session session = build().openSession();
